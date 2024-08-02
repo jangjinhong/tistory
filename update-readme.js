@@ -11,4 +11,3 @@ const updateReadme = () => {
 };
 
 updateReadme();
-
