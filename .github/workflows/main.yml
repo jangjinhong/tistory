@@ -26,5 +26,5 @@ jobs:
           git add .
           git config --local user.email "honge1122@naver.com"
           git config --local user.name "jangjinhong"
-          git commit -m "Update README.md"
-          git push
+          git commit -m "Update README.md" || echo "No changes to commit"
+          git push || echo "No changes to push"
