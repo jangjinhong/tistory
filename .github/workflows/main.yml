@@ -13,14 +13,23 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
         with:
           node-version: 20  # Node.js 버전을 20으로 설정
+
       - name: Install dependencies
         run: npm ci
+
       - name: Update README
         run: npm start  # npm start 스크립트 실행
+        
+      - name: Check for changes
+        run: git status
+        
       - name: Commit README
         run: |
           git add .
