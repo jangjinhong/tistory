@@ -4,4 +4,4 @@
 
 ## 📕 Latest Blog Posts
 
-<a href=https://honge1122.tistory.com/46>Node.js 1.1.9 이전 버전에서 SSRF 취약점 발견</a></br><a href=https://honge1122.tistory.com/45>[피싱] 악성코드 'DBatLoader' 주의보</a></br><a href=https://honge1122.tistory.com/44>[GitHub] 깃허브 액션 ArtiPACKED 공격, 리포지토리 취약</a></br><a href=https://honge1122.tistory.com/43>Cloud 클라우드 컴퓨팅 정의와 장점</a></br><a href=https://honge1122.tistory.com/42>[Microsoft] Patch Tuesday 업데이트로부터 10개의 제로데이 버그</a></br>
+<a href=https://honge1122.tistory.com/47>Cloud 클라우드의 특징 4가지, 유형 2가지</a></br><a href=https://honge1122.tistory.com/46>Node.js 1.1.9 이전 버전에서 SSRF 취약점 발견</a></br><a href=https://honge1122.tistory.com/45>[피싱] 악성코드 'DBatLoader' 주의보</a></br><a href=https://honge1122.tistory.com/44>[GitHub] 깃허브 액션 ArtiPACKED 공격, 리포지토리 취약</a></br><a href=https://honge1122.tistory.com/43>Cloud 클라우드 컴퓨팅 정의와 장점</a></br>
