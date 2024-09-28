@@ -25,15 +25,17 @@ jobs:
         run: npm ci
 
       - name: Update README
-        run: npm start  # npm start 스크립트 실행
+        run: node index.js
         
       - name: Check for changes
         run: git status
         
       - name: Commit README
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # GitHub에서 제공하는 토큰 사용
         run: |
           git add .
           git config --local user.email "honge1122@naver.com"
           git config --local user.name "jangjinhong"
-          git commit -m "Update README.md" || echo "No changes to commit"
+          git commit -m "I studied today too!🥰" || echo "No changes to commit"
           git push || echo "No changes to push"
