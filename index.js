@@ -26,11 +26,11 @@ const updateReadme = async () => {
         // 최신 5개의 글의 제목과 링크를 가져온 후 text에 추가
         for (let i = 0; i < Math.min(5, feed.items.length); i++) {
             const { title, link } = feed.items[i];
-            text += '- [📖 ${title}](${link})\n';
+            text += `- [📖 ${title}](${link})\n`;
         }
 
         // 업데이트 시간 추가
-        text += '\n---\n*업데이트 완료: ${new Date().toLocaleString()}*'; 
+        text += `\n---\n*업데이트 완료: ${new Date().toLocaleString()}*`; 
         
         // README.md 파일 업데이트
         writeFileSync('README.md', text, 'utf8');
