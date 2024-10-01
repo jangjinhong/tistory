@@ -30,7 +30,7 @@ const updateReadme = async () => {
         }
 
         // 업데이트 시간 추가
-        text += `\n---\n*업데이트 완료: ${new Date().toLocaleString()}*`; 
+        // text += `\n---\n*업데이트 완료: ${new Date().toLocaleString()}*`; 
         
         // README.md 파일 업데이트
         writeFileSync('README.md', text, 'utf8');
